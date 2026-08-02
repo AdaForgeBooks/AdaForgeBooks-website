@@ -3,43 +3,255 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ada Forge Books</title>
 
-    <style>
-        body {
-            margin: 0;
-            font-family: Georgia, serif;
-            background: #171717;
-            color: #f4f0e6;
-            text-align: center;
-        }
+    <meta
+        name="description"
+        content="Ada Forge Books, the official home of author Todd Thorne."
+    >
 
-        main {
-            min-height: 100vh;
-            display: flex;
-            flex-direction: column;
-            justify-content: center;
-            padding: 30px;
-            box-sizing: border-box;
-        }
+    <title>Ada Forge Books | Todd Thorne</title>
 
-        h1 {
-            font-size: 3rem;
-            margin-bottom: 10px;
-        }
-
-        p {
-            font-size: 1.2rem;
-            line-height: 1.6;
-        }
-    </style>
+    <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
+    <header class="site-header">
+        <a class="brand" href="#home">
+            <img
+                src="images/covers/forgelogo_cropped_cream.png"
+                alt="Ada Forge Books logo"
+            >
+            <span>Ada Forge Books</span>
+        </a>
+
+        <button
+            class="menu-button"
+            type="button"
+            aria-label="Open navigation menu"
+            aria-expanded="false"
+        >
+            ☰
+        </button>
+
+        <nav class="main-navigation">
+            <a href="#home">Home</a>
+            <a href="#published">Published</a>
+            <a href="#upcoming">Coming Soon</a>
+            <a href="#about">About</a>
+        </nav>
+    </header>
+
     <main>
-        <h1>Ada Forge Books</h1>
-        <p>Stories forged from imagination, history, and the human experience.</p>
-        <p>Official website of author Todd Thorne.</p>
+        <section class="hero" id="home">
+            <div class="hero-overlay"></div>
+
+            <div class="hero-content">
+                <img
+                    class="hero-logo"
+                    src="images/covers/forgelogo_cropped_cream.png"
+                    alt="Ada Forge Books"
+                >
+
+                <p class="eyebrow">Independent Fiction Publisher</p>
+
+                <h1>Stories Forged Through Imagination</h1>
+
+                <p class="hero-description">
+                    Explore the novels of Todd Thorne, including
+                    psychological horror, family drama, suspense,
+                    dystopian fiction and post-apocalyptic stories.
+                </p>
+
+                <div class="hero-buttons">
+                    <a class="button button-primary" href="#published">
+                        Explore the Books
+                    </a>
+
+                    <a class="button button-secondary" href="#about">
+                        Meet the Author
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="book-section" id="published">
+            <div class="section-heading">
+                <p class="eyebrow">Available Now</p>
+                <h2>Published Books</h2>
+                <p>
+                    Discover the current Ada Forge Books collection.
+                </p>
+            </div>
+
+            <div class="book-grid">
+                <article class="book-card">
+                    <img
+                        src="images/covers/1NEWCARDANO.jpg"
+                        alt="New Cardano: Origin of the End book cover"
+                    >
+
+                    <div class="book-information">
+                        <p class="book-status">Published</p>
+                        <h3>New Cardano: Origin of the End</h3>
+                        <p>Post-apocalyptic fiction</p>
+                    </div>
+                </article>
+
+                <article class="book-card">
+                    <img
+                        src="images/covers/1FORGIVENESSROAD.jpg"
+                        alt="Forgiveness Road: A Family's Reckoning book cover"
+                    >
+
+                    <div class="book-information">
+                        <p class="book-status">Published</p>
+                        <h3>Forgiveness Road: A Family’s Reckoning</h3>
+                        <p>Family drama</p>
+                    </div>
+                </article>
+
+                <article class="book-card">
+                    <img
+                        src="images/covers/1THEWORLDBEYONDTHEEND.jpg"
+                        alt="The World Beyond the End book cover"
+                    >
+
+                    <div class="book-information">
+                        <p class="book-status">Published</p>
+                        <h3>The World Beyond the End</h3>
+                        <p>Post-apocalyptic fiction</p>
+                    </div>
+                </article>
+
+                <article class="book-card">
+                    <img
+                        src="images/covers/1THESKINNER1978.jpg"
+                        alt="The Skinner 1978 book cover"
+                    >
+
+                    <div class="book-information">
+                        <p class="book-status">Published</p>
+                        <h3>The Skinner 1978</h3>
+                        <p>Psychological horror</p>
+                    </div>
+                </article>
+
+                <article class="book-card">
+                    <img
+                        src="images/covers/1THECONTEST.jpg"
+                        alt="The Contest: Only One Survives book cover"
+                    >
+
+                    <div class="book-information">
+                        <p class="book-status">Published</p>
+                        <h3>The Contest: Only One Survives</h3>
+                        <p>Suspense thriller</p>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section class="book-section alternate-section" id="upcoming">
+            <div class="section-heading">
+                <p class="eyebrow">In Development</p>
+                <h2>Upcoming Releases</h2>
+                <p>
+                    New stories are currently being forged.
+                </p>
+            </div>
+
+            <div class="book-grid upcoming-grid">
+                <article class="book-card">
+                    <div class="cover-wrapper">
+                        <span class="coming-soon-label">Coming Soon</span>
+
+                        <img
+                            src="images/covers/PardonIslandbookcoverfirst.png"
+                            alt="Pardon Island book cover"
+                        >
+                    </div>
+
+                    <div class="book-information">
+                        <h3>Pardon Island</h3>
+                        <p>Upcoming release</p>
+                    </div>
+                </article>
+
+                <article class="book-card">
+                    <div class="cover-wrapper">
+                        <span class="coming-soon-label">Coming Soon</span>
+
+                        <img
+                            src="images/covers/DEMISECOVERIDEA.png"
+                            alt="Demise: A Legacy Undone book cover"
+                        >
+                    </div>
+
+                    <div class="book-information">
+                        <h3>Demise: A Legacy Undone</h3>
+                        <p>Upcoming release</p>
+                    </div>
+                </article>
+
+                <article class="title-card">
+                    <p class="book-status">Coming Soon</p>
+                    <h3>Alas the End</h3>
+                </article>
+
+                <article class="title-card">
+                    <p class="book-status">Coming Soon</p>
+                    <h3>The Skinner 1979</h3>
+                </article>
+
+                <article class="title-card">
+                    <p class="book-status">Coming Soon</p>
+                    <h3>Her Sky Had Seasons</h3>
+                </article>
+
+                <article class="title-card">
+                    <p class="book-status">Working Title</p>
+                    <h3>Rheatown: Alien Life in a Small Town</h3>
+                </article>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="about-content">
+                <p class="eyebrow">Meet the Author</p>
+                <h2>Todd Thorne</h2>
+
+                <p>
+                    Todd Thorne writes stories that explore forgiveness,
+                    survival, justice, faith, family and the choices that
+                    define ordinary people during extraordinary events.
+                </p>
+
+                <p>
+                    Through Ada Forge Books, his work spans psychological
+                    horror, suspense, family drama, dystopian fiction and
+                    post-apocalyptic storytelling.
+                </p>
+            </div>
+
+            <div class="about-logo">
+                <img
+                    src="images/covers/forgelogo_cropped_cream.png"
+                    alt="Ada Forge Books emblem"
+                >
+            </div>
+        </section>
     </main>
+
+    <footer class="site-footer">
+        <img
+            src="images/covers/forgelogo_cropped_cream.png"
+            alt=""
+        >
+
+        <p>© 2026 Ada Forge Books. All rights reserved.</p>
+        <p>Official website of author Todd Thorne.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
 </body>
 </html>
