@@ -527,3 +527,29 @@ h1, h2, h3 {
     background: #d29543;
     transform: translateY(-2px);
 }
+.contact-section{
+    padding:90px 20px;
+    background:#15181b;
+    border-top:1px solid rgba(255,255,255,.08);
+}
+
+.contact-container{
+    max-width:800px;
+    margin:auto;
+    text-align:center;
+}
+
+.contact-info{
+    margin-top:40px;
+    display:grid;
+    gap:30px;
+}
+
+.contact-info a{
+    color:#ee5c18;
+    text-decoration:none;
+}
+
+.contact-info a:hover{
+    text-decoration:underline;
+}
