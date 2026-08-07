@@ -553,3 +553,6 @@ h1, h2, h3 {
 .contact-info a:hover{
     text-decoration:underline;
 }
+.upcoming-grid .book-card {
+    height: 100%;
+}
