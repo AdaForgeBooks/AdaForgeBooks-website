@@ -59,5 +59,21 @@
     "image": "",
     "bookLink": "books/new-cardano.html",
     "bookLinkText": "Visit New Cardano"
-  }
+  },
+ 
+ {
+  "id": "Demise Cover Added",
+  "date": "2026-08-07",
+  "category": "Cover Reveal",
+  "title": "Demise",
+  "excerpt": "A new cover...",
+  "body": [
+    "A new book in the works, the cover has been finished and added."
+  ],
+  "image": "",
+  "bookLink": "",
+  "bookLinkText": ""
+} 
 ]
+ 
+
