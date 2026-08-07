@@ -556,3 +556,29 @@ h1, h2, h3 {
 .upcoming-grid .book-card {
     height: 100%;
 }
+@media (max-width: 768px) {
+    .hero-art {
+        min-height: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        width: 100%;
+    }
+
+    .logo-watermark {
+        position: relative;
+        top: auto;
+        right: auto;
+        left: auto;
+        width: min(320px, 80vw);
+        margin: 0 auto;
+    }
+
+    .logo-watermark img {
+        display: block;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+}
