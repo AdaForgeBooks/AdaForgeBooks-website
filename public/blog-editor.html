@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Blog Post Helper | Ada Forge Books</title>
+<link rel="stylesheet" href="css/blog.css">
+</head>
+<body>
+<main class="editor-shell">
+    <section class="editor-card">
+        <p class="eyebrow">Local Helper</p>
+        <h1>Create a Blog Post</h1>
+        <p class="editor-note">Fill this out. It creates the exact JSON block you paste into <code>public/data/blog-posts.json</code>.</p>
+
+        <label>Post ID / slug
+            <input id="id" placeholder="example: new-book-announcement">
+        </label>
+
+        <label>Date
+            <input id="date" type="date">
+        </label>
+
+        <label>Category
+            <input id="category" placeholder="News, Cover Reveal, Writing Update">
+        </label>
+
+        <label>Title
+            <input id="title">
+        </label>
+
+        <label>Short excerpt
+            <textarea id="excerpt" rows="3"></textarea>
+        </label>
+
+        <label>Full post — one paragraph per line
+            <textarea id="body" rows="10"></textarea>
+        </label>
+
+        <label>Optional image path
+            <input id="image" placeholder="images/blog/my-image.jpg">
+        </label>
+
+        <label>Optional book/page link
+            <input id="bookLink" placeholder="books/pardon-island.html">
+        </label>
+
+        <label>Optional link text
+            <input id="bookLinkText" placeholder="Explore Pardon Island">
+        </label>
+
+        <button id="generate" class="button primary">Generate Post Block</button>
+
+        <h2>Copy this block</h2>
+        <textarea id="output" rows="18" readonly></textarea>
+    </section>
+</main>
+
+<script>
+document.getElementById("generate").addEventListener("click", () => {
+    const paragraphs = document.getElementById("body").value
+        .split("\n")
+        .map(v => v.trim())
+        .filter(Boolean);
+
+    const post = {
+        id: document.getElementById("id").value.trim(),
+        date: document.getElementById("date").value,
+        category: document.getElementById("category").value.trim(),
+        title: document.getElementById("title").value.trim(),
+        excerpt: document.getElementById("excerpt").value.trim(),
+        body: paragraphs,
+        image: document.getElementById("image").value.trim(),
+        bookLink: document.getElementById("bookLink").value.trim(),
+        bookLinkText: document.getElementById("bookLinkText").value.trim()
+    };
+
+    document.getElementById("output").value = JSON.stringify(post, null, 2);
+});
+</script>
+</body>
+</html>

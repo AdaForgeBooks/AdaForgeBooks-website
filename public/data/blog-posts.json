@@ -1,0 +1,63 @@
+[
+  {
+    "id": "welcome",
+    "date": "2026-08-07",
+    "category": "News",
+    "title": "Welcome to the Ada Forge Books Blog",
+    "excerpt": "The new home for Ada Forge Books news, releases, cover reveals, character spotlights, and behind-the-scenes updates.",
+    "body": [
+      "Welcome to the new Ada Forge Books Blog & News page.",
+      "This will be the permanent home for book announcements, cover reveals, writing progress, character spotlights, website updates, and behind-the-scenes looks at upcoming projects.",
+      "Each post can also be shared directly to Facebook, allowing social media readers to return to the Ada Forge Books website for the full update."
+    ],
+    "image": "",
+    "bookLink": "",
+    "bookLinkText": ""
+  },
+  {
+    "id": "pardon-island-mercy-creek",
+    "date": "2026-08-07",
+    "category": "Book Update",
+    "title": "Pardon Island: Welcome to Mercy Creek",
+    "excerpt": "A closer look at Mercy Creek, the reality-show town where 250 residents begin each season and five carry a secret known only to viewers.",
+    "body": [
+      "Development continues on Pardon Island, a novel centered around a televised social experiment set inside Mercy Creek.",
+      "Each season brings 250 new residents to the private island. Two hundred forty-five are ordinary people selected for the show. Five are secretly death row inmates whose identities are known to the television audience but not to anyone living in Mercy Creek.",
+      "The town itself has been designed to resemble an idealized 1950s American community, complete with a diner, grocery store, theatre, bowling alley, repair shop, community center, and the private Pardon Island Diary Room."
+    ],
+    "image": "",
+    "bookLink": "books/pardon-island.html",
+    "bookLinkText": "Explore Pardon Island"
+  },
+  {
+    "id": "demise-new-cover",
+    "date": "2026-08-07",
+    "category": "Cover Reveal",
+    "title": "Demise: A Legacy Undone Gets a New Cover",
+    "excerpt": "The Demise cover has been updated with a cleaner front-cover design for digital editions and the Ada Forge Books website.",
+    "body": [
+      "The cover for Demise: A Legacy Undone has been updated.",
+      "The revised image focuses entirely on the front-cover artwork and is now being used for the digital edition and the Ada Forge Books website.",
+      "The new presentation gives Demise the same clean book-card proportions as the rest of the Ada Forge Books catalog."
+    ],
+    "image": "",
+    "bookLink": "index.html#upcoming",
+    "bookLinkText": "View Upcoming Books"
+  },
+  {
+    "id": "new-cardano-book-two",
+    "date": "2026-08-07",
+    "category": "Writing Update",
+    "title": "New Cardano Book Two: Fight for a New Beginning",
+    "excerpt": "The survivors leave the shelter while Mad Marve, the Black Baron, begins building a very different kind of future.",
+    "body": [
+      "New Cardano Book Two will follow the survivors as they leave the shelter and begin searching for a way to live in the aftermath.",
+      "The trio wants to establish a peaceful commune built around cooperation and survival.",
+      "At the same time, Mad Marve, also known as the Black Baron, has begun creating his own new society. His plan is a dictatorship where he rules.",
+      "Both groups want the same territory, and the two visions cannot survive side by side."
+    ],
+    "image": "",
+    "bookLink": "books/new-cardano.html",
+    "bookLinkText": "Visit New Cardano"
+  }
+]
