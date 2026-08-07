@@ -1,0 +1,1 @@
+document.addEventListener("DOMContentLoaded",()=>{document.querySelectorAll(".share-button").forEach(b=>{b.addEventListener("click",()=>{const u=new URL(b.dataset.url||"blog.html",window.location.href).href;window.open("https://www.facebook.com/sharer/sharer.php?u="+encodeURIComponent(u),"facebook-share","width=700,height=600,resizable=yes,scrollbars=yes");});});});
