@@ -1,3 +1,141 @@
 :root{--bg:#0b0d10;--panel:#12161a;--panel2:#181d22;--cream:#f0ebe2;--muted:#b9b4ab;--gold:#c6a76a;--burgundy:#7e3540;--border:rgba(240,235,226,.14);--shadow:0 24px 70px rgba(0,0,0,.36)}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--cream);font-family:Arial,Helvetica,sans-serif;line-height:1.72}img{display:block;max-width:100%}a{color:inherit;text-decoration:none}h1,h2,h3{font-family:Georgia,"Times New Roman",serif;line-height:1.08}.site-header{position:sticky;top:0;z-index:50;display:flex;justify-content:space-between;align-items:center;gap:24px;padding:14px clamp(18px,5vw,78px);background:rgba(8,10,12,.95);border-bottom:1px solid var(--border);backdrop-filter:blur(14px)}.brand{font-family:Georgia,serif;font-weight:700;letter-spacing:.08em}nav{display:flex;flex-wrap:wrap;align-items:center;justify-content:flex-end;gap:18px;color:var(--muted);font-size:.87rem}nav a:hover,.active{color:var(--gold)}.buy-now{padding:9px 14px;background:var(--burgundy);color:white!important;border-radius:3px;font-weight:700;text-transform:uppercase;letter-spacing:.06em}.eyebrow{margin:0 0 10px;color:var(--gold);font-size:.73rem;font-weight:700;letter-spacing:.2em;text-transform:uppercase}.book-hero{min-height:720px;display:flex;align-items:flex-end;padding:90px clamp(24px,8vw,130px);background:linear-gradient(90deg,rgba(5,7,9,.94) 0%,rgba(5,7,9,.74) 42%,rgba(5,7,9,.15) 78%),url("../images/demise/mercer-family-home.png") center/cover no-repeat}.hero-copy{max-width:780px}.hero-copy h1{margin:.1em 0 0;font-size:clamp(5rem,12vw,10rem);letter-spacing:.04em}.subtitle{margin:0;font-family:Georgia,serif;font-size:clamp(1.7rem,4vw,3rem);letter-spacing:.08em;text-transform:uppercase}.author{margin-top:24px;color:var(--muted);font-size:1.05rem}.hero-actions{display:flex;flex-wrap:wrap;gap:14px;margin-top:30px}.button{display:inline-flex;align-items:center;justify-content:center;min-height:48px;padding:11px 19px;border:1px solid var(--gold);font-weight:700}.primary{background:var(--burgundy);border-color:var(--burgundy)}.secondary{background:rgba(0,0,0,.18)}.intro-strip{padding:75px 20px;background:var(--panel2);text-align:center}.intro-strip>div{max-width:850px;margin:auto}.intro-strip h2{margin:.2em auto .5em;font-size:clamp(2.3rem,5vw,4.3rem)}.intro-strip p:last-child{color:var(--muted)}.synopsis-section{padding:100px clamp(20px,8vw,120px)}.section-heading{max-width:850px;margin:0 auto 42px;text-align:center}.section-heading h2{margin:.1em 0;font-size:clamp(2.7rem,6vw,5rem)}.synopsis-card{max-width:920px;margin:auto;padding:clamp(28px,5vw,58px);background:var(--panel);border:1px solid var(--border);box-shadow:var(--shadow)}.synopsis-card p{color:#d3cec5;font-family:Georgia,serif;font-size:1.08rem}.synopsis-card .standalone{margin:1.7em 0;color:var(--cream);font-size:1.4rem;font-weight:700;font-style:italic}.feature-grid{max-width:1350px;margin:auto;padding:10px clamp(20px,6vw,90px) 110px;display:grid;gap:36px}.feature-card{display:grid;grid-template-columns:1.15fr .85fr;border:1px solid var(--border);background:var(--panel);overflow:hidden}.feature-card.reverse{grid-template-columns:.85fr 1.15fr}.feature-card.reverse img{order:2}.feature-card img{width:100%;height:100%;min-height:430px;object-fit:cover}.feature-copy{padding:clamp(28px,5vw,56px);align-self:center}.feature-copy h3{font-size:clamp(2.1rem,4vw,3.6rem);margin:.15em 0}.feature-copy p{color:var(--muted)}.text-link{color:var(--gold);font-weight:700}.themes{padding:100px clamp(20px,7vw,110px);background:var(--panel2)}.theme-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:22px;max-width:1200px;margin:auto}.theme-grid article{min-height:220px;padding:28px;border:1px solid var(--border);background:rgba(255,255,255,.02)}.theme-grid h3{font-size:1.7rem}.theme-grid p{color:var(--muted)}.reader-callout{padding:100px 20px;text-align:center;background:linear-gradient(rgba(8,10,12,.82),rgba(8,10,12,.82)),url("../images/demise/emily-pool.png") center/cover no-repeat}.reader-callout>div{max-width:900px;margin:auto}.reader-callout h2{font-size:clamp(2.5rem,6vw,4.7rem);margin:.2em 0}.reader-callout p:last-child{color:#d6d1c8}.bottom-cta{padding:95px 20px;text-align:center}.bottom-cta h2{max-width:850px;margin:.2em auto .8em;font-size:clamp(2.4rem,5vw,4.2rem)}footer{padding:50px 20px;text-align:center;background:#06080a;border-top:1px solid var(--border);color:var(--muted);font-size:.9rem}footer a{color:var(--gold)}.properties-hero{min-height:620px;display:flex;align-items:flex-end;padding:90px clamp(24px,8vw,130px);background:linear-gradient(90deg,rgba(6,8,10,.9),rgba(6,8,10,.45)),url("../images/demise/emily-remodeled.png") center/cover no-repeat}.properties-hero>div{max-width:850px}.properties-hero h1{margin:.1em 0 .2em;font-size:clamp(4rem,9vw,7rem)}.properties-hero p:not(.eyebrow){max-width:760px;color:#ddd8cf;font-size:1.1rem}.property-intro{max-width:950px;margin:auto;padding:75px 30px 35px;text-align:center;color:var(--muted);font-family:Georgia,serif;font-size:1.2rem}.property-grid{max-width:1380px;margin:auto;padding:30px clamp(18px,5vw,70px) 110px;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}.property-card{overflow:hidden;border:1px solid var(--border);background:var(--panel);box-shadow:var(--shadow)}.property-card.wide{grid-column:1/-1}.property-card img{width:100%;aspect-ratio:16/10;object-fit:cover}.property-card.wide img{aspect-ratio:16/8.5}.property-copy{padding:28px}.property-number{margin:0;color:var(--gold);font-size:.72rem;letter-spacing:.16em}.property-copy h2{margin:.2em 0 .45em;font-size:clamp(1.8rem,3.6vw,3rem)}.property-copy p:last-child{color:var(--muted)}
 @media(max-width:900px){.feature-card,.feature-card.reverse{grid-template-columns:1fr}.feature-card.reverse img{order:0}.theme-grid{grid-template-columns:1fr}}@media(max-width:760px){.site-header{align-items:flex-start}.brand{font-size:.78rem}nav{gap:11px;font-size:.76rem}.book-hero,.properties-hero{min-height:600px;padding:70px 22px;background-position:center}.hero-copy h1{font-size:4.8rem}.feature-card img{min-height:300px}.property-grid{grid-template-columns:1fr}.property-card.wide{grid-column:auto}.property-card.wide img,.property-card img{aspect-ratio:16/10}}
+
+
+/* Demise Characters */
+.characters-hero{
+    min-height:560px;
+    display:flex;
+    align-items:flex-end;
+    padding:90px clamp(24px,8vw,130px);
+    background:
+        linear-gradient(90deg,rgba(6,8,10,.93),rgba(6,8,10,.4)),
+        url("../images/demise/mercer-family-home.png") center/cover no-repeat;
+}
+.characters-hero>div{max-width:880px}
+.characters-hero h1,
+.downfall-hero h1{
+    margin:.1em 0 .2em;
+    font-size:clamp(4rem,9vw,7.5rem);
+}
+.characters-hero p:not(.eyebrow){max-width:760px;color:#ddd8cf;font-size:1.12rem}
+.character-grid{
+    max-width:1320px;
+    margin:auto;
+    padding:90px clamp(20px,6vw,80px);
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:28px;
+}
+.character-card{
+    overflow:hidden;
+    background:var(--panel);
+    border:1px solid var(--border);
+    box-shadow:var(--shadow);
+}
+.character-card.feature-character{grid-column:1/-1;display:grid;grid-template-columns:1.1fr .9fr}
+.character-card img{
+    width:100%;
+    height:440px;
+    object-fit:cover;
+    object-position:center top;
+}
+.character-card.feature-character img{height:100%;min-height:520px}
+.character-copy{padding:30px}
+.character-copy h2{margin:.15em 0 .45em;font-size:clamp(2rem,4vw,3.2rem)}
+.character-copy p:not(.eyebrow){color:var(--muted)}
+.whitfield-teaser{
+    padding:110px 20px;
+    text-align:center;
+    background:
+        linear-gradient(rgba(6,8,10,.76),rgba(6,8,10,.86)),
+        url("../images/demise/whitfields-before-after.png") center/cover no-repeat;
+}
+.whitfield-teaser>div{max-width:900px;margin:auto}
+.whitfield-teaser h2{font-size:clamp(3rem,7vw,5.5rem);margin:.1em 0}
+.whitfield-teaser p:not(.eyebrow){color:#d5d0c7}
+
+/* The Downfall */
+.downfall-hero{
+    min-height:690px;
+    display:flex;
+    align-items:flex-end;
+    padding:90px clamp(24px,8vw,130px);
+    background:
+        linear-gradient(90deg,rgba(6,8,10,.94),rgba(6,8,10,.28)),
+        url("../images/demise/whitfields-before-after.png") center/cover no-repeat;
+}
+.downfall-hero>div{max-width:850px}
+.downfall-tagline{max-width:740px;color:#ded9d0;font-family:Georgia,serif;font-size:clamp(1.2rem,2.6vw,1.8rem)}
+.downfall-intro{padding:95px 20px;text-align:center;background:var(--panel2)}
+.downfall-intro>div{max-width:930px;margin:auto}
+.downfall-intro h2{font-size:clamp(2.5rem,6vw,4.8rem);margin:.2em 0}
+.downfall-intro p:last-child{color:var(--muted)}
+.before-after-feature{
+    max-width:1380px;
+    margin:auto;
+    padding:70px clamp(18px,5vw,70px);
+}
+.before-after-feature img{
+    width:100%;
+    border:1px solid var(--border);
+    box-shadow:var(--shadow);
+}
+.downfall-story{
+    max-width:1180px;
+    margin:auto;
+    padding:30px clamp(20px,5vw,70px) 110px;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:24px;
+}
+.downfall-story article{
+    padding:32px;
+    min-height:300px;
+    background:var(--panel);
+    border:1px solid var(--border);
+}
+.chapter-marker{margin:0;color:var(--gold);font-size:.75rem;letter-spacing:.18em}
+.downfall-story h2{font-size:2.2rem;margin:.25em 0}
+.downfall-story p:last-child{color:var(--muted)}
+.downfall-quote{
+    padding:110px 20px;
+    text-align:center;
+    background:var(--panel2);
+}
+.downfall-quote>div{max-width:900px;margin:auto}
+.downfall-quote h2{font-size:clamp(2.6rem,6vw,4.8rem);margin:.2em 0}
+.downfall-quote p:last-child{color:var(--muted)}
+.demise-explore-grid{
+    max-width:1180px;
+    margin:0 auto;
+    padding:10px clamp(20px,5vw,70px) 100px;
+    display:grid;
+    grid-template-columns:repeat(2,minmax(0,1fr));
+    gap:24px;
+}
+.explore-card{
+    display:block;
+    padding:38px;
+    min-height:300px;
+    background:var(--panel);
+    border:1px solid var(--border);
+    transition:transform .18s ease,border-color .18s ease;
+}
+.explore-card:hover{transform:translateY(-4px);border-color:rgba(198,167,106,.5)}
+.explore-card h2{font-size:clamp(2rem,4vw,3rem);margin:.2em 0}
+.explore-card p:not(.eyebrow){color:var(--muted)}
+.explore-card span{color:var(--gold);font-weight:700}
+
+@media(max-width:900px){
+    .character-grid,
+    .downfall-story,
+    .demise-explore-grid{grid-template-columns:1fr}
+    .character-card.feature-character{grid-column:auto;grid-template-columns:1fr}
+    .character-card.feature-character img{min-height:0;height:440px}
+}
+@media(max-width:700px){
+    .characters-hero,.downfall-hero{min-height:560px;padding:70px 22px}
+    .character-card img,.character-card.feature-character img{height:360px}
+}
