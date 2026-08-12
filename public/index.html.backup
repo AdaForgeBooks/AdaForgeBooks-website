@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ada Forge Books, the official home of author Todd Thorne.">
+    <title>Ada Forge Books | Todd Thorne</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#home">
+            <img src="images/homepage/ada-forge-logo.png" alt="Ada Forge Books logo">
+            <div>
+                <strong>Ada Forge Books</strong>
+                <span>Official home of Todd Thorne</span>
+            </div>
+        </a>
+
+        <button class="menu-button" type="button" aria-label="Open menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+
+       <nav class="main-navigation">
+    <a href="#home">Home</a>
+    <a href="#published">Books</a>
+    <a href="#upcoming">Coming Soon</a>
+    <a href="/about/">About</a>
+    <a href="blog.html">Blog</a> 
+
+    <a
+        class="buy-now"
+        href="https://www.amazon.com/stores/Todd-Thorne/author/B0FC8KB4LV"
+        target="_blank"
+        rel="noopener noreferrer"
+    >
+        Amazon Store
+    </a>
+</nav>
+    </header>
+
+    <main>
+        <section class="hero" id="home">
+            <div class="hero-copy">
+                <p class="eyebrow">Independent Fiction Publisher</p>
+                <h1>Stories forged to leave a mark.</h1>
+                <p class="hero-description">
+                    Explore suspense, psychological horror, family drama,
+                    science fiction, and post-apocalyptic worlds from author Todd Thorne.
+                </p>
+
+                <div class="hero-actions">
+                    <a class="button primary" href="#published">Explore the Collection</a>
+                    <a class="button secondary" href="books/new-cardano.html">Featured Book</a>
+                </div>
+
+                <div class="hero-stats">
+                    <div><strong>5</strong><span>Published Books</span></div>
+                    <div><strong>6</strong><span>Upcoming Releases</span></div>
+                    <div><strong>Ada Forge</strong><span>Independent Imprint</span></div>
+                </div>
+            </div>
+
+            <div class="hero-art">
+                <div class="logo-watermark">
+                    <img src="images/homepage/ada-forge-logo.png" alt="">
+                </div>
+               
+            </div>
+        </section>
+
+        <section class="feature-strip">
+            <div>
+                <p class="eyebrow">Featured Title</p>
+                <h2>New Cardano: Origin of the End</h2>
+                <p>
+                    A glowing miracle drink transforms Monroe, Louisiana,
+                    while a Soviet astronomer detects an impossible intelligence moving toward Earth.
+                </p>
+            </div>
+            <a href="books/new-cardano.html">Enter New Cardano →</a>
+        </section>
+
+        <section class="catalog-section" id="published">
+            <div class="section-heading">
+                <p class="eyebrow">Available Now</p>
+                <h2>Published Books</h2>
+                <p>Stories shaped by consequence, survival, family, and difficult choices.</p>
+            </div>
+
+            <div class="book-grid">
+                <a class="book-card" href="books/new-cardano.html">
+                    <div class="cover-wrap">
+                        <span class="badge">Featured</span>
+                        <img src="images/homepage/CARDANOWEBPHOTO.jpg" alt="New Cardano: Origin of the End">
+                    </div>
+                    <div class="book-copy">
+                        <p class="genre">Science Fiction • Post-Apocalyptic</p>
+                        <h3>New Cardano: Origin of the End</h3>
+                        <span>View book page →</span>
+                    </div>
+                </a>
+
+                <a class="book-card" href="books/forgiveness-road.html">
+                    <div class="cover-wrap">
+                        <img src="images/homepage/forgiveness-road.jpg" alt="Forgiveness Road">
+                    </div>
+                    <div class="book-copy">
+                        <p class="genre">Family Drama</p>
+                        <h3>Forgiveness Road: A Family’s Reckoning</h3>
+                        <span>Published</span>
+                    </div>
+                </a>
+
+                <a class="book-card" href="books/world-beyond-end.html">
+                    <div class="cover-wrap">
+                        <img src="images/homepage/world-beyond-end.jpg" alt="The World Beyond the End">
+                    </div>
+                    <div class="book-copy">
+                        <p class="genre">Post-Apocalyptic Fiction</p>
+                        <h3>The World Beyond the End</h3>
+                        <span>Published</span>
+                    </div>
+                </a>
+
+                <a class="book-card" href="books/skinner-1978.html">
+                    <div class="cover-wrap">
+                        <img src="images/homepage/skinner-1978.jpg" alt="The Skinner 1978">
+                    </div>
+                    <div class="book-copy">
+                        <p class="genre">Psychological Horror</p>
+                        <h3>The Skinner 1978</h3>
+                        <span>Published</span>
+                    </div>
+                </a>
+
+                <a class="book-card" href="books/the-contest.html">
+                    <div class="cover-wrap">
+                        <img src="images/homepage/the-contest.jpg" alt="The Contest: Only One Survives">
+                    </div>
+                    <div class="book-copy">
+                        <p class="genre">Suspense Thriller</p>
+                        <h3>The Contest: Only One Survives</h3>
+                        <span>Published</span>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section class="catalog-section upcoming-section" id="upcoming">
+            <div class="section-heading">
+                <p class="eyebrow">What Comes Next</p>
+                <h2>Upcoming Releases</h2>
+                <p>New stories are being shaped, refined, and prepared for readers.</p>
+            </div>
+
+           <div class="book-grid upcoming-grid">
+
+    <a class="book-card" href="books/pardon-island.html">
+        <div class="cover-wrap">
+            <img
+                src="images/homepage/pardon-island.png"
+                alt="Pardon Island book cover"
+            >
+        </div>
+
+        <div class="book-copy">
+            <p class="genre">Coming Soon</p>
+            <h3>Pardon Island</h3>
+            <p>
+                A reality television experiment where five condemned inmates
+                are hidden among 245 ordinary residents.
+            </p>
+            <span>View book page →</span>
+        </div>
+    </a>
+
+    <a class="book-card" href="books/demise.html">
+        <div class="cover-wrap">
+            <img
+                src="images/homepage/DEMISE_v2.jpg"
+                alt="Demise: A Legacy Undone book cover"
+            >
+        </div>
+
+        <div class="book-copy">
+            <p class="genre">Coming Soon</p>
+            <h3>Demise: A Legacy Undone</h3>
+            <p>
+                A family inheritance becomes the beginning of betrayal,
+                division, and destruction.
+            </p>
+            <span>Coming Soon</span>
+        </div>
+    </a>
+
+</div>
+
+            <div class="title-grid">
+            
+                <article><span>Coming Soon</span><h3>The Skinner 1979</h3></article>
+                <article><span>Coming Soon</span><h3>Her Sky Had Seasons</h3></article>
+                <article><span>Working Title</span><h3>Rheatown: Alien Life in a Small Town</h3></article>
+            </div>
+        </section>
+
+        <section class="about-section" id="about">
+            <div class="about-logo">
+                <img src="images/homepage/ada-forge-logo.png" alt="Ada Forge Books">
+            </div>
+            <div class="about-copy">
+                <p class="eyebrow">About the Author</p>
+                <h2>Todd Thorne</h2>
+                <p>
+                    Todd Thorne writes fiction about survival, forgiveness,
+                    family, ambition, justice, faith, and the decisions that
+                    define ordinary people during extraordinary events.
+                </p>
+                <p>
+                    Through Ada Forge Books, his work spans psychological horror,
+                    suspense, family drama, science fiction, and post-apocalyptic storytelling.
+                </p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <div class="footer-brand">
+            <img src="images/homepage/ada-forge-logo.png" alt="">
+            <div>
+                <strong>Ada Forge Books</strong>
+                <span>Stories forged through imagination.</span>
+            </div>
+        </div>
+        <p>© 2026 Ada Forge Books. All rights reserved.</p>
+    </footer>
+
+    <script src="js/app.js"></script>
+    <hr>
+
+<h2>Contact</h2>
+
+<p><strong>Email:</strong>
+<a href="mailto:ada-forge@proton.me">ada-forge@proton.me</a>
+</p>
+
+<p><strong>Mailing Address:</strong><br>
+Ada Forge Books<br>
+P.O. Box 74<br>
+Knoxville, IL 61448
+</p>
+</body>
+</html>
