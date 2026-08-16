@@ -11,3 +11,23 @@ footer{text-align:center;padding:45px 20px;background:#060807;color:var(--muted)
 .loading,.error{text-align:center;color:var(--muted)}
 .editor-shell{padding:60px 20px}.editor-card{max-width:850px;margin:auto;padding:35px;border:1px solid var(--border);background:var(--panel)}.editor-card h1{font-size:3rem}.editor-note{color:var(--muted)}.editor-card label{display:block;margin:18px 0;color:var(--gold);font-weight:700}.editor-card input,.editor-card textarea{display:block;width:100%;margin-top:7px;padding:12px;background:#0c100e;border:1px solid var(--border);color:var(--cream);font:inherit}.editor-card code{color:var(--gold)}
 @media(max-width:850px){.post-grid{grid-template-columns:1fr}}@media(max-width:700px){.site-header{align-items:flex-start}.brand span{display:none}.hero{text-align:center;justify-content:center}.actions{justify-content:center}.article-shell{padding:60px 20px}}
+
+/* Ada Forge logo aspect-ratio fix */
+.brand img {
+    width: auto !important;
+    height: 50px !important;
+    max-width: 180px;
+    object-fit: contain !important;
+    border-radius: 0 !important;
+    flex-shrink: 0;
+}
+
+@media (max-width: 760px) {
+    .brand img {
+        width: auto !important;
+        height: 42px !important;
+        max-width: 150px;
+        object-fit: contain !important;
+    }
+}
+

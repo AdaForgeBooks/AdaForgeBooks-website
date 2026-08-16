@@ -515,3 +515,23 @@ footer a {
     object-position: top center;
     background: #101719;
 }
+
+/* Ada Forge logo aspect-ratio fix */
+.brand img {
+    width: auto !important;
+    height: 50px !important;
+    max-width: 180px;
+    object-fit: contain !important;
+    border-radius: 0 !important;
+    flex-shrink: 0;
+}
+
+@media (max-width: 760px) {
+    .brand img {
+        width: auto !important;
+        height: 42px !important;
+        max-width: 150px;
+        object-fit: contain !important;
+    }
+}
+
