@@ -332,9 +332,9 @@ h1, h2, h3 {
 
 .upcoming-grid {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 26px;
-    max-width: 1250px;
+    grid-template-columns: repeat(5, minmax(0, 1fr));
+    gap: 24px;
+    max-width: 1450px;
     margin: 0 auto 26px;
 }
 
