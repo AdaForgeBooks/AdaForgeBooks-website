@@ -680,3 +680,35 @@ footer a {
     }
 }
 
+/* Book theme song */
+.book-song {
+    padding: 80px 20px;
+    text-align: center;
+}
+
+.book-song-inner {
+    width: min(760px, 100%);
+    margin: 0 auto;
+    padding: 36px;
+    border: 1px solid rgba(255,255,255,.15);
+    background: rgba(255,255,255,.035);
+}
+
+.book-song h2 {
+    margin: 8px 0 14px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2rem, 5vw, 3.5rem);
+}
+
+.book-song p:not(.eyebrow) {
+    margin: 0 auto 24px;
+    max-width: 620px;
+    opacity: .82;
+}
+
+.book-song audio {
+    width: min(620px, 100%);
+    display: block;
+    margin: 0 auto;
+}
+
