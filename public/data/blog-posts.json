@@ -1,5 +1,33 @@
 [
   {
+    "id": "new-ada-forge-books-website",
+    "date": "2026-08-20",
+    "category": "News",
+    "title": "A New Website for Todd Thorne and Ada Forge Books",
+    "excerpt": "The Ada Forge Books website has been rebuilt from the ground up with Cloudflare, GitHub, Visual Studio Code, and a lot of hands-on work.",
+    "body": [
+      "The old Ada Forge Books website was shut down several months ago. Why? Mostly because of cost.",
+      "When I first started out, I purchased a domain and website hosting through GoDaddy. Their system made it easy to get started. I could purchase the domain, choose a template, and build the site using a simple drag-and-drop editor. It was basic, but it served its purpose, and I probably would have stayed with GoDaddy if not for one issue: the renewal price.",
+      "GoDaddy is inexpensive when you first sign up. A year later, after you have spent countless hours building your site and establishing your domain, the renewal cost can jump dramatically. In my case, the increase was roughly 200 percent.",
+      "I decided to say, “No thanks.”",
+      "So I started over.",
+      "This time I moved the website to Cloudflare, which provides free hosting, and I was able to purchase the domain adaforgebooks.net for several years at a very reasonable price.",
+      "The biggest difference is that this website is built by hand. There is no drag-and-drop editor. What you see when you visit Ada Forge Books is made from HTML, CSS, JavaScript, images, and a lot of trial and error. Altogether, the site now contains around 10,000 lines of code.",
+      "Crazy.",
+      "It has given me a whole new appreciation for web designers and developers. Before software made website building easier, they definitely earned their money.",
+      "ChatGPT has been a tremendous help with the process, especially while working with Linux Ubuntu, Visual Studio Code, Git, GitHub, and Cloudflare. But it is not as simple as saying, “Hey AI, build me a website.”",
+      "It still takes hours. Lots of hours.",
+      "There is plenty of time spent staring at a terminal, reading through lines of code, tracking down the one line that needs one tiny change, fixing broken links, adjusting images, testing mobile layouts, and trying again when something does not work the first time.",
+      "But it has also been a lot of fun.",
+      "I enjoy finding new things to add, improving pages that are already online, and watching the site slowly grow into something much larger than the simple website I started with.",
+      "Take a look around, and come back often.",
+      "You never know what I might add next."
+    ],
+    "image": "",
+    "bookLink": "",
+    "bookLinkText": ""
+  },
+  {
     "id": "welcome",
     "date": "2026-08-07",
     "category": "News",
@@ -60,20 +88,17 @@
     "bookLink": "books/new-cardano.html",
     "bookLinkText": "Visit New Cardano"
   },
- 
- {
-  "id": "Demise Cover Added",
-  "date": "2026-08-07",
-  "category": "Cover Reveal",
-  "title": "Demise",
-  "excerpt": "A new cover...",
-  "body": [
-    "A new book in the works, the cover has been finished and added."
-  ],
-  "image": "",
-  "bookLink": "",
-  "bookLinkText": ""
-} 
+  {
+    "id": "Demise Cover Added",
+    "date": "2026-08-07",
+    "category": "Cover Reveal",
+    "title": "Demise",
+    "excerpt": "A new cover...",
+    "body": [
+      "A new book in the works, the cover has been finished and added."
+    ],
+    "image": "",
+    "bookLink": "",
+    "bookLinkText": ""
+  }
 ]
- 
-
