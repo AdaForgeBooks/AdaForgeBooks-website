@@ -47,7 +47,7 @@ nav a:hover{color:#fff}
 .archive-callout>div{max-width:900px;margin:auto}
 .archive-callout h2{font-size:clamp(2.6rem,5vw,5rem);margin:.12em 0}
 .archive-callout p{color:#675f54}
-.archive-hero{min-height:560px;display:flex;align-items:flex-end;padding:90px clamp(25px,8vw,120px);background:linear-gradient(90deg,rgba(35,29,22,.87),rgba(35,29,22,.2)),url("../images/her-sky/pumpkinbloom.png") center/cover;color:white}
+.archive-hero{min-height:560px;display:flex;align-items:flex-end;padding:90px clamp(25px,8vw,120px);background:linear-gradient(90deg,rgba(35,29,22,.87),rgba(35,29,22,.2)),url("../images/her-sky/pumpkinbloom.webp") center/cover;color:white}
 .archive-hero div{max-width:850px}
 .archive-hero h1{font-size:clamp(4rem,8vw,7rem);margin:.1em 0}
 .archive-hero p:not(.eyebrow){max-width:700px;font-family:Georgia,serif;font-size:1.15rem}

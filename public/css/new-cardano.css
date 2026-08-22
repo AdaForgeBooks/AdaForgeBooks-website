@@ -297,7 +297,7 @@ nav a:hover { color: var(--gold-light); }
     padding: 70px 24px;
     background:
         linear-gradient(rgba(14,14,11,.62), rgba(14,14,11,.78)),
-        url("../images/new-cardano/anton-dubrovsky.png") center 28% / cover;
+        url("../images/new-cardano/anton-dubrovsky.webp") center 28% / cover;
     background-attachment: fixed;
 }
 
