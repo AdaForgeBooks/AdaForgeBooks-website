@@ -602,3 +602,60 @@ h1, h2, h3 {
     }
 }
 
+
+/* Homepage Featured Book */
+.homepage-featured-book {
+    max-width: 1250px;
+    margin: 70px auto;
+    padding: 0 clamp(20px, 5vw, 70px);
+    display: grid;
+    grid-template-columns: minmax(260px, 420px) 1fr;
+    gap: clamp(35px, 7vw, 90px);
+    align-items: center;
+}
+
+.featured-book-cover {
+    justify-self: center;
+    width: min(380px, 100%);
+}
+
+.featured-book-cover img {
+    display: block;
+    width: 100%;
+    height: auto;
+    box-shadow: 0 24px 60px rgba(0,0,0,.38);
+}
+
+.featured-book-copy {
+    max-width: 700px;
+}
+
+.featured-book-copy h2 {
+    margin: 6px 0 18px;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(2.8rem, 6vw, 5rem);
+    line-height: 1.05;
+}
+
+.featured-book-copy > p:not(.eyebrow) {
+    color: var(--muted);
+    font-size: 1.05rem;
+}
+
+.featured-book-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 14px;
+    margin-top: 28px;
+}
+
+@media (max-width: 800px) {
+    .homepage-featured-book {
+        grid-template-columns: 1fr;
+        text-align: center;
+    }
+
+    .featured-book-actions {
+        justify-content: center;
+    }
+}
