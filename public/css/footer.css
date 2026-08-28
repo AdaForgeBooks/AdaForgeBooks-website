@@ -1,0 +1,77 @@
+/* =========================================
+   ADA FORGE BOOKS - UNIVERSAL SITE FOOTER
+   ========================================= */
+
+footer.site-footer {
+    box-sizing: border-box !important;
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 42px 24px 30px !important;
+    background: #070705 !important;
+    border-top: 1px solid #3b3022 !important;
+    color: #aaa397 !important;
+    text-align: center !important;
+    display: block !important;
+    font-family: Arial, Helvetica, sans-serif !important;
+}
+
+footer.site-footer .footer-brand {
+    display: block !important;
+    margin: 0 0 22px !important;
+}
+
+footer.site-footer .footer-brand strong {
+    display: block !important;
+    margin-bottom: 6px !important;
+    color: #eee4d2 !important;
+    font-family: Georgia, "Times New Roman", serif !important;
+    font-size: 1.35rem !important;
+    font-weight: 700 !important;
+}
+
+footer.site-footer .footer-brand span {
+    display: block !important;
+    color: #aaa397 !important;
+    font-size: .82rem !important;
+    letter-spacing: .08em !important;
+    text-transform: uppercase !important;
+}
+
+footer.site-footer .footer-navigation {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 10px 24px !important;
+    margin: 0 auto 24px !important;
+}
+
+footer.site-footer .footer-navigation a {
+    display: inline-block !important;
+    margin: 0 !important;
+    color: #c58a54 !important;
+    font-size: .9rem !important;
+    font-weight: 600 !important;
+    text-decoration: none !important;
+}
+
+footer.site-footer .footer-navigation a:hover {
+    color: #f0d2ad !important;
+    text-decoration: underline !important;
+}
+
+footer.site-footer .footer-copyright {
+    margin: 0 !important;
+    color: #777168 !important;
+    font-size: .78rem !important;
+}
+
+@media (max-width: 600px) {
+    footer.site-footer {
+        padding: 36px 18px 26px !important;
+    }
+
+    footer.site-footer .footer-navigation {
+        gap: 12px 18px !important;
+    }
+}
