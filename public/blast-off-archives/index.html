@@ -13,6 +13,101 @@ a{color:inherit}.page{max-width:1180px;margin:auto;background:var(--paper);box-s
 .intro{padding:54px 8% 30px;font-size:1.12rem}.intro:first-letter{float:left;font-size:4.7rem;line-height:.78;padding:.12em .1em 0 0;color:var(--red);font-weight:bold}.timeline{padding:10px 6% 70px}.exhibit{display:grid;grid-template-columns:minmax(0,1.18fr) minmax(260px,.82fr);gap:38px;align-items:center;padding:46px 0;border-top:1px solid #6b573a55}.exhibit:nth-child(even){grid-template-columns:minmax(260px,.82fr) minmax(0,1.18fr)}.exhibit:nth-child(even) .art{order:2}.art{background:#d8c69d;padding:12px;box-shadow:0 12px 30px var(--shadow);transform:rotate(-.25deg)}.art img{display:block;width:100%;height:auto;background:#ddd}.copy .date{font:700 .78rem Arial,sans-serif;letter-spacing:.22em;text-transform:uppercase;color:var(--red)}.copy h3{font-size:clamp(1.7rem,3vw,2.7rem);line-height:1.05;margin:.25rem 0 .75rem;color:var(--navy)}.copy p{margin:.65rem 0}.tag{display:inline-block;margin-top:10px;padding:5px 10px;background:var(--navy);color:#f5e7c2;font:700 .7rem Arial,sans-serif;letter-spacing:.12em;text-transform:uppercase}
 .full{grid-template-columns:1fr}.full .copy{max-width:830px;margin:auto;text-align:center}.full .art{max-width:860px;margin:auto}.photo .art{max-width:900px}.closing{padding:65px 9%;background:var(--navy);color:#efe4c7;text-align:center;border-top:8px solid var(--gold)}.closing h3{margin:0 0 18px;font-size:clamp(2rem,5vw,4rem);color:#e5b853;text-transform:uppercase}.closing p{max-width:760px;margin:12px auto;font-size:1.1rem}.closing .last{font-size:1.5rem;color:#fff;font-style:italic;margin-top:28px}.footer{padding:22px;text-align:center;background:#111;color:#aaa;font:12px Arial,sans-serif}.footer strong{color:#ddd}
 @media(max-width:780px){.hero{padding:52px 6% 44px}.intro{padding:38px 7% 22px}.timeline{padding:0 7% 48px}.exhibit,.exhibit:nth-child(even){grid-template-columns:1fr;gap:22px;padding:34px 0}.exhibit:nth-child(even) .art{order:0}.copy h3{font-size:2rem}.art{padding:8px}.closing{padding:48px 7%}}
+
+/* Standard Ada Forge site header */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 14px clamp(18px,5vw,76px);
+    background: rgba(8,10,12,.96);
+    border-bottom: 1px solid rgba(255,255,255,.14);
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.site-header .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #f0ebe2;
+    text-decoration: none;
+}
+
+.site-header .brand img {
+    display: block;
+    width: auto;
+    height: 50px;
+    max-width: 180px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.site-header .brand div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+}
+
+.site-header .brand strong {
+    color: #f0ebe2;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.site-header .brand span {
+    color: #b9b4ab;
+    font-size: .72rem;
+    font-weight: 400;
+}
+
+.site-header nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 18px;
+    color: #b9b4ab;
+    font-size: .87rem;
+}
+
+.site-header nav a {
+    color: #b9b4ab;
+    text-decoration: none;
+}
+
+.site-header nav a:hover {
+    color: #fff;
+}
+
+.site-header .header-store {
+    padding: 9px 15px;
+    border: 1px solid #c6a76a;
+    color: #c6a76a !important;
+    background: transparent;
+    font-weight: 700;
+}
+
+.site-header .header-store:hover {
+    background: #c6a76a;
+    color: #111 !important;
+}
+
+@media(max-width:760px) {
+    .site-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .site-header nav {
+        gap: 11px;
+        font-size: .76rem;
+    }
+}
+
 </style>
 
 <meta name="description" content="Explore vintage-style Blast Off advertisements, images, and historical material from the world of New Cardano by Todd Thorne.">
