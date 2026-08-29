@@ -96,3 +96,53 @@ footer{background:#221f1b;color:#d8d0c4;text-align:center;padding:45px 20px;font
 .special-copy p{font-family:Georgia,serif;color:#5b5349}
 
 .archive-copy p:not(.eyebrow){color:var(--muted);font-size:.95rem;margin:.5rem 0 0}
+
+/* Standard Ada Forge header brand */
+.site-header .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: Georgia, serif;
+    letter-spacing: 0;
+}
+
+.site-header .brand img {
+    width: auto;
+    height: 50px;
+    max-width: 180px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.site-header .brand div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+}
+
+.site-header .brand strong {
+    color: #f8f2e7;
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.site-header .brand span {
+    color: #ded3c2;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: .72rem;
+    font-weight: 400;
+}
+
+/* Goodreads and Amazon Store header buttons */
+.header-store {
+    padding: 9px 15px;
+    border: 1px solid #c6a76a;
+    color: #c6a76a !important;
+    background: transparent;
+    font-weight: 700;
+}
+
+.header-store:hover {
+    background: #c6a76a;
+    color: #111 !important;
+}
