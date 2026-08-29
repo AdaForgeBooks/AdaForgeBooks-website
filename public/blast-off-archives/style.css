@@ -1,0 +1,88 @@
+
+/* Standard Ada Forge site header */
+.site-header {
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 24px;
+    padding: 14px clamp(18px,5vw,76px);
+    background: rgba(8,10,12,.96);
+    border-bottom: 1px solid rgba(255,255,255,.14);
+}
+
+.site-header .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: #f0ebe2;
+    text-decoration: none;
+}
+
+.site-header .brand img {
+    width: auto;
+    height: 50px;
+    max-width: 180px;
+    object-fit: contain;
+}
+
+.site-header .brand div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+}
+
+.site-header .brand strong {
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.site-header .brand span {
+    font-size: .72rem;
+    font-weight: 400;
+    opacity: .75;
+}
+
+.site-header nav {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 18px;
+}
+
+.site-header nav a {
+    color: #cfc8bb;
+    text-decoration: none;
+}
+
+.site-header nav a:hover {
+    color: #fff;
+}
+
+.site-header .header-store {
+    padding: 9px 15px;
+    border: 1px solid #c6a76a;
+    color: #c6a76a !important;
+    background: transparent;
+    font-weight: 700;
+}
+
+.site-header .header-store:hover {
+    background: #c6a76a;
+    color: #111 !important;
+}
+
+@media (max-width: 760px) {
+    .site-header {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    .site-header nav {
+        gap: 11px;
+        font-size: .8rem;
+    }
+}
