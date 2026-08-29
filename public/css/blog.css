@@ -36,3 +36,17 @@ footer{text-align:center;padding:45px 20px;background:#060807;color:var(--muted)
     background:var(--gold);
     color:#111!important;
 }
+
+/* Standard Ada Forge bronze header buttons */
+.site-header .buy-now {
+    padding: 9px 15px;
+    border: 1px solid #c6a76a;
+    color: #c6a76a !important;
+    background: transparent !important;
+    font-weight: 700;
+}
+
+.site-header .buy-now:hover {
+    background: #c6a76a !important;
+    color: #111 !important;
+}
