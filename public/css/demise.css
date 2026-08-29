@@ -174,3 +174,22 @@
     font-size: .72rem;
     font-weight: 400;
 }
+
+/* Standard bronze-outline header buttons */
+.site-header .header-store {
+    display: inline-block;
+    padding: 9px 15px;
+    border: 1px solid #c6a76a;
+    color: #c6a76a !important;
+    background: transparent !important;
+    border-radius: 0;
+    font-weight: 700;
+    text-transform: none;
+    letter-spacing: normal;
+    text-decoration: none;
+}
+
+.site-header .header-store:hover {
+    background: #c6a76a !important;
+    color: #111 !important;
+}
