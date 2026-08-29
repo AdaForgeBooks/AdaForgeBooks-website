@@ -514,18 +514,16 @@ h1, h2, h3 {
     .title-grid { grid-template-columns: 1fr; }
 }
 .buy-now {
-    background: #b57a2f;
-    color: white !important;
-    padding: 10px 18px;
-    border-radius: 5px;
-    font-weight: bold;
-    letter-spacing: 1px;
-    transition: .25s;
+    padding: 9px 15px;
+    border: 1px solid var(--bronze);
+    color: var(--bronze) !important;
+    background: transparent;
+    font-weight: 700;
 }
 
 .buy-now:hover {
-    background: #d29543;
-    transform: translateY(-2px);
+    background: var(--bronze);
+    color: #111 !important;
 }
 .contact-section{
     padding:90px 20px;
