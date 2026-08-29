@@ -54,7 +54,7 @@
       "The town itself has been designed to resemble an idealized 1950s American community, complete with a diner, grocery store, theatre, bowling alley, repair shop, community center, and the private Pardon Island Diary Room."
     ],
     "image": "",
-    "bookLink": "books/pardon-island.html",
+    "bookLink": "/books/pardon-island.html",
     "bookLinkText": "Explore Pardon Island"
   },
   {
@@ -85,7 +85,7 @@
       "Both groups want the same territory, and the two visions cannot survive side by side."
     ],
     "image": "",
-    "bookLink": "books/new-cardano.html",
+    "bookLink": "/books/new-cardano.html",
     "bookLinkText": "Visit New Cardano"
   },
   {

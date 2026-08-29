@@ -8,7 +8,7 @@ DATA = PUBLIC / "data" / "blog-posts.json"
 BLOG_DIR = PUBLIC / "blog"
 
 SITE = "https://adaforgebooks.net"
-DEFAULT_IMAGE = f"{SITE}/images/homepage/ada-forge-logo.png"
+DEFAULT_IMAGE = f"{SITE}/images/homepage/ada-forge-logo.webp"
 
 with DATA.open(encoding="utf-8") as f:
     posts = json.load(f)
@@ -80,7 +80,7 @@ for post in posts:
 
 <header class="site-header">
     <a class="brand" href="/">
-        <img src="/images/blog/ada-forge-logo.png" alt="Ada Forge Books">
+        <img src="/images/homepage/ada-forge-logo.webp" alt="Ada Forge Books">
         <span>Ada Forge Books</span>
     </a>
 
