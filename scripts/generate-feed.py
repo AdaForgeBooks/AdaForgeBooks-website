@@ -16,7 +16,7 @@ for post in posts:
     title = html.escape(post.get("title", "Ada Forge Books"))
     description = html.escape(post.get("excerpt", ""))
     post_id = post.get("id", "")
-    link = site + "/blog-post.html?id=" + post_id
+    link = site + "/blog/" + post_id + "/"
 
     try:
         dt = datetime.strptime(post.get("date", ""), "%Y-%m-%d").replace(tzinfo=timezone.utc)

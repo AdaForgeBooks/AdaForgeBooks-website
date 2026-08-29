@@ -28,7 +28,7 @@ async function loadPosts() {
                     <h3>${post.title}</h3>
                     <p>${post.excerpt}</p>
                     <div class="actions">
-                        <a class="read-more" href="blog-post.html?id=${encodeURIComponent(post.id)}">Read Full Post →</a>
+                        <a class="read-more" href="/blog/${encodeURIComponent(post.id)}/">Read Full Post →</a>
                         <button class="share-button" data-id="${post.id}">Share on Facebook</button>
                     </div>
                 </div>
@@ -40,7 +40,7 @@ async function loadPosts() {
         document.querySelectorAll(".share-button").forEach(button => {
             button.addEventListener("click", () => {
                 const postUrl = new URL(
-                    `blog-post.html?id=${encodeURIComponent(button.dataset.id)}`,
+                    `/blog/${encodeURIComponent(button.dataset.id)}/`,
                     window.location.href
                 ).href;
 
