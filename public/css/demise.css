@@ -139,3 +139,38 @@
     .characters-hero,.downfall-hero{min-height:560px;padding:70px 22px}
     .character-card img,.character-card.feature-character img{height:360px}
 }
+
+/* Demise header brand alignment */
+.site-header .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    font-family: Georgia, serif;
+    font-weight: 700;
+    letter-spacing: 0;
+}
+
+.site-header .brand img {
+    width: auto;
+    height: 50px;
+    max-width: 180px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.site-header .brand div {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.15;
+}
+
+.site-header .brand strong {
+    color: var(--cream);
+    font-size: 1rem;
+}
+
+.site-header .brand span {
+    color: var(--muted);
+    font-size: .72rem;
+    font-weight: 400;
+}
