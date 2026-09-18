@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="robots" content="noindex, follow">
+    <title>Blog Post Moved | Ada Forge Books</title>
+    <script>
+        const posts = {
+            "welcome": "/blog/welcome/",
+            "pardon-island-mercy-creek": "/blog/pardon-island-mercy-creek/",
+            "demise-new-cover": "/blog/demise-new-cover/",
+            "new-ada-forge-books-website": "/blog/new-ada-forge-books-website/",
+            "new-cardano-book-two": "/blog/new-cardano-book-two/",
+            "demise-cover-added": "/blog/demise-cover-added/",
+            "demise-progress-website-update": "/blog/demise-progress-website-update/",
+            "writing-website-update-september-2026": "/blog/writing-website-update-september-2026/"
+        };
+
+        const id = new URLSearchParams(window.location.search).get("id");
+
+        if (id && posts[id]) {
+            window.location.replace(posts[id]);
+        } else {
+            window.location.replace("/blog.html");
+        }
+    </script>
+</head>
+<body>
+    <p>This blog post has moved. Redirecting to the Ada Forge Books blog...</p>
+</body>
+</html>
